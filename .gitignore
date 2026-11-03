@@ -1,0 +1,14 @@
+# Build outputs
+build/
+*.apk
+*.idsig
+
+# Signing — NEVER commit a keystore or its password
+*.keystore
+*.jks
+
+# Local data / IDE
+*.db
+.idea/
+*.iml
+.DS_Store
